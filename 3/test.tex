@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{smartdiagram}
+
+\begin{document}
+
+\smartdiagramset{
+  planet size=2cm, 
+  distance planet-text=0.1,
+  distance planet-satellite=2.5cm,
+  /tikz/connection planet satellite/.append style={<-}
+} 
+\smartdiagram[constellation diagram]{
+  MaxWalkSAT,max\_tries,max\_flips,target,p, gew.Klaus
+}
+
+\end{document}
